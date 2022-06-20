@@ -42,10 +42,10 @@ public class ARPlacement : MonoBehaviour
             Pose hitPose = hits[0].pose;
             if (!selectedObject)
                 selectedObject = Instantiate(ObjectToSpawn, hitPose.position, hitPose.rotation).transform;
-            else
+            /*else
             {
                 selectedObject.transform.position = hitPose.position;
-            }
+            }*/
         }
     }
 
