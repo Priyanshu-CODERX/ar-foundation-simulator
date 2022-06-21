@@ -1210,6 +1210,7 @@ GameObject:
   - component: {fileID: 2083513571}
   - component: {fileID: 2083513572}
   - component: {fileID: 2083513570}
+  - component: {fileID: 2083513573}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -1293,3 +1294,16 @@ MonoBehaviour:
   ARObject: {fileID: 1679316337262068, guid: 400ae1c92d3d7164c98601f4394b0931, type: 3}
   placementIndicator: {fileID: 51839255}
   PlaceObjectButton: {fileID: 1701517220}
+--- !u!114 &2083513573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083513567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab0e80cee9cc1d44928bfe488dd1e2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PointCloudPrefab: {fileID: 1647941210027160731, guid: 7bce65b0ce67e3b4a81f40dc8881bf4d, type: 3}
